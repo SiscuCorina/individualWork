@@ -53,7 +53,7 @@ class ProductController extends AbstractController
             );
         }
 
-        $product->setName('Incaltaminte!');
+        $product->setName('Product!');
         $entityManager->flush();
 
 
